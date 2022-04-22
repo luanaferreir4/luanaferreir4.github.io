@@ -1,0 +1,84 @@
+body {
+	background-image: url(https://wallpapercave.com/wp/wp2925347.jpg);
+	background-size: cover;
+	background-position: center center;
+	font-family: monospace;
+	margin: 0px;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.nav {
+	display: flex;
+    flex-direction: right;
+}
+
+.nav2 {
+	list-style-type: none;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: midnightblue;
+}
+h3 {
+	color: blue;
+}
+
+.header {
+	background-color: rgb(0, 0, 0, 0.3);
+}
+
+.sobre-mim {
+	padding: 10px;
+}
+
+.redes-sociais {
+	padding: 10px;
+}
+
+.links {
+	color: white;
+	text-decoration: underline;
+}
+
+.email {
+	padding: 20px;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.tools {
+	margin: 40px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(0, 0, 0, 0.3);
+	margin: 0px;
+	padding: 2px;
+	color: white;
+}
+
+.header .nav .nav2 a {
+	color: white;
+}
+
+img {
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 15px;
+	background-color: white;
+	transition: all 0.2s;
+}
+
+img:hover {
+	transform: scaleY(1.1);
+}
